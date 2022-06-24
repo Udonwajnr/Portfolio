@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400&display=swap');
+
+:root {
+    /* dark mood */
+    --primary-color: #f4f5f1;
+    --secondary-color: #1bc3b8;
+    --dark-color: #0c111d;
+    --light-dark-color: #1d2531;
+    --blue-color: #0003bd;
+    --peach-color: #c90468;
+}
+
+.about-section{
+    display: grid;
+    /* background-color: #1d2531; */
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.about-info h1 {
+    font-size: 65px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    width: ;
+}
+
+.contact-2{
+    color: var(--secondary-color);    
+}
+.about-paragraph{
+    color: var(--primary-color) ;
+}
+.about-paragraph p{
+    margin-top: 15px;
+}
+.about-paragraph p:last-child{
+    /* opacity: 1; */
+}
+.about-img{
+    display: flex;
+    justify-content: center;   
+}
+.about-img img{
+    max-width: 450px;
+}

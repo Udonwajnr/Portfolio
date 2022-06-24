@@ -1,0 +1,17 @@
+@media only screen and (max-width:1200px){
+    h2 {
+            font-size: 45px;
+            text-align: center;
+        }
+    .about-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    
+        .about-info{
+            text-align: center;
+        }
+}

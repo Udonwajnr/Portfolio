@@ -1,0 +1,19 @@
+@media only screen and (max-width:1350px){
+     h2 {
+            font-size: 45px;
+            text-align: center;
+        }
+    
+    .layout{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .aside{
+        height:100%;
+        position:static;
+        /* top: 0; */
+       background-color: aqua;
+    }
+
+}

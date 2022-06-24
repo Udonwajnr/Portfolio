@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400&display=swap');
+:root {
+    /* dark mood */
+    --primary-color: #f4f5f1;
+    --secondary-color: #1bc3b8;
+    --dark-color: #0c111d;
+    --light-dark-color: #1d2531;
+    --blue-color: #0003bd;
+    --peach-color: #c90468;
+}
+
+.layout{
+    display: flex;
+}
+
+.aside{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex: 0.1;
+}
+.pages{
+    padding:0 20px ;
+    overflow: hidden;
+    flex: 0.9;
+}

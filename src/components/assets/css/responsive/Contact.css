@@ -1,0 +1,15 @@
+@media only screen and (max-width:1200px){
+    h2 {
+            font-size: 45px;
+            text-align: center;
+        }
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        width: 100;
+        padding: 20px 0px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}

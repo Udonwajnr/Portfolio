@@ -1,0 +1,74 @@
+:root {
+    /* dark mood */
+    --primary-color: #f4f5f1;
+    --secondary-color: #1bc3b8;
+    --dark-color: #0c111d;
+    --light-dark-color: #1d2531;
+    --blue-color: #0003bd;
+    --peach-color: #c90468;
+    --form-color: #2a3341;
+}
+
+.skills-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: 100%;
+}
+
+.skills-info h2 {
+    font-size: 65px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.skills-paragraph p{
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+.label{
+    display: none;
+}
+.wrapper{
+    margin-top: 10px;
+}
+.progress {
+margin-bottom: 15px;
+}
+
+.progress span{
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.skills-animation{
+    width: 100%;
+    padding:0px  15px;
+}
+.bar{
+    background-color: #2a3341;
+}
+
+.experience{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 10px;
+}
+
+.experience-card-header h1{
+    font-size: 20px;
+}
+.experience-card-header p{
+    margin-top: 12px;
+}
+.experience-card{
+    width: 300px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    color: var(--primary-color);
+    background-color: var(--form-color);
+}
+.experience-card-body{
+    margin-top: 20px;
+}

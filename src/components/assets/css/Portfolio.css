@@ -1,0 +1,66 @@
+.portfolio-projects{
+    width: 100% !important;
+    display: grid;
+    height: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    transition: 1s;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.portfolio-header h2{
+    text-align: center;
+    font-size: 65px;
+        color: var(--secondary-color);
+        font-weight: bold;
+}
+.portfolio-card{
+    width: 300px;
+    height: 170px;
+    object-fit: contain;
+    position: relative;
+    transition: transform .6s;
+}
+.card{
+    position: relative;
+    transition:  .6s;
+    display: flex;
+    height: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card-img{
+    display: flex;
+}
+.card-body{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    /* transition: .5s; */
+}
+.card-body:hover{
+  opacity: 1;
+}
+.circle-link{
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.circle-link a{
+    color:#fff ;
+}

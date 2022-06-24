@@ -1,0 +1,43 @@
+
+.header h1{
+    font-size: 65px;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-transform:capitalize ;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.introduction .para{
+    font-weight: bolder;
+    color: var(--primary-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    opacity: 0.3;
+}
+
+.contact-btn{
+    overflow: hidden;
+    width: 10rem;
+    margin-top: 20px;
+    display: flex;
+}
+
+.contact-link{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: var(--secondary-color);
+    transition: .3s;
+    border: var(--secondary-color) 1px solid;
+    font-weight: bolder;
+}
+.contact-link:hover{
+    color: var(--dark-color);
+    background-color: var(--secondary-color);
+    transition: .3s;
+}
