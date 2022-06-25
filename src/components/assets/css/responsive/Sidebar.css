@@ -4,40 +4,7 @@
             text-align: center;
         }
     .sidebar{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
+        display: none;
     }
 
-    .nav-links{
-        flex-direction: row;
-        /* background-color: red; */
-        justify-content: center;
-        align-items: center;
-    }
-    .font-logo {
-            font-size: 40px;
-            color: var(--primary-color);
-            padding: ;
-            text-decoration: none;
-     }
-
-    .nav{
-        margin-bottom: 0;
-    }
-
-   .social-icons {
-            margin-bottom: 0px;
-            /* color:red; */
-            font-size: 30px;
-
-        }
-
-   .social-links ul{
-            /* background-color: bisque; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-  }
 }

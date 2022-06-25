@@ -1,0 +1,11 @@
+@media only screen and (max-width:1350px) {
+    h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .navbar {
+        display: initial;
+    }
+
+}

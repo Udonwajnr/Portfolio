@@ -25,6 +25,7 @@
     "react-toastify": "^9.0.5",
     "react-tsparticles": "^2.1.0",
     "tsparticles": "^2.1.0",
+    "vanta": "^0.5.22",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

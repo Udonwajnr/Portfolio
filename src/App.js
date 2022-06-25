@@ -64,7 +64,6 @@ function App() {
         </div>
         :
       <div className="routes">
-        <Particls/>
         <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
           <Route path='/'  element={<Layout/>}>
@@ -79,6 +78,7 @@ function App() {
         </AnimatePresence>
       </div>
       }
+
     </div>
   );
 }

@@ -50,10 +50,12 @@
     transition: all .3s ease-out;
 }
 
+
 .nav-icons:hover {
     color: var(--secondary-color);
     transition: all .3s ease-out;
 }
+
 
 .nav-item {
     width: 100%;

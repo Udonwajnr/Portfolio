@@ -1,0 +1,23 @@
+:root {
+    /* dark mood */
+    --primary-color: #f4f5f1;
+    --secondary-color: #1bc3b8;
+    --dark-color: #0c111d;
+    --light-dark-color: #1d2531;
+    --blue-color: #0003bd;
+    --peach-color: #c90468;
+}
+.navbar{
+    display: none;
+}
+.navbar-nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--dark-color);
+}
+
+.navbar .nav{
+    margin-bottom:0px ;
+}
