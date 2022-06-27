@@ -12,19 +12,11 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}>
+      transition={{ duration: 0.5 }}>
       <div className="skills-info">
         <h2>Skills & <br /> Experience</h2>
         <div className="skills-paragraph para">
-          <p>
-            Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
-          </p>
-          <p>
-            I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-          </p>
-          <p>
-            I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .
-          </p>
+          
         </div>
       </div>
       <div className="skills-animation">

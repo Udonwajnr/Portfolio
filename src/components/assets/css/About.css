@@ -44,3 +44,16 @@
 .about-img img{
     max-width: 450px;
 }
+.my-social-icons{
+    margin-top: 20px;
+    display: flex;
+}
+.my-icons{
+    margin: 0px 10px;
+    transition: .4s;
+    color: var(--primary-color);
+}
+.my-icons:hover{
+    color: var(--secondary-color);
+    transition: .4s;
+}

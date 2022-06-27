@@ -30,7 +30,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 0.5 }}
     >
 
        
@@ -46,18 +46,18 @@ const Contact = () => {
               <div className="top-input">
                 <div className='name'>
                   <label htmlFor="">Name</label>
-                  <input type="text" name='form_name' onChange={handleChange} required/>
+                  <input type="text" name='from_name' onChange={handleChange} required/>
                 </div>
 
                 <div className='email'>
                   <label htmlFor="">Email</label>
-                  <input type="text" name='form_name' onChange={handleChange} required/>
+                  <input type="text" name='from_email' onChange={handleChange} required/>
                 </div>
               </div>
 
               <div className='message'>
                 <label htmlFor="">Message</label>
-                <textarea type="text" onChange={handleChange} required/>
+                <textarea type="text" name='message' onChange={handleChange} required/>
               </div>
 
               <div className="submit">

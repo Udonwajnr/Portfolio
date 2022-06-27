@@ -2,7 +2,6 @@ import React from 'react'
 import Sidebar from '../Sidebar'
 import '../layout/Layout.css'
 import { Outlet } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import Navbar from '../Navbar'
 
 const Layout = () => {

@@ -1,8 +1,4 @@
 import React from 'react'
-import img from '../components/assets/img/img.png'
-import img1 from '../components/assets/img/img1.png'
-import img2 from '../components/assets/img/img2.png'
-import img5 from '../components/assets/img/img5.png'
 import '../components/assets/css/Portfolio.css'
 import { motion } from 'framer-motion'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -16,7 +12,7 @@ const Portfolio = ({data}) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 0.5 }}
     >
       <div className="portfolio-header">
         <h2>My works</h2>
